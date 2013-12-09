@@ -6,5 +6,5 @@ setup(
     author = 'Gurchet Rai',
     description = 'Retreive stock quote information from Yahoo Finance API',
     url = 'https://github.com/gurch101/StockScraper',
-    packages = find_packages(),
+    py_modules = ['StockRetreiver'],
 )
